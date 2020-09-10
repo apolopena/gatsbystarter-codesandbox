@@ -9,7 +9,6 @@ const IndexPage = () => (
     <h1>Simple Example</h1>
     <Location>
       {({ location }) => {
-        console.log(location)
         return <p>The location is {location.pathname}</p>
       }}
     </Location>
